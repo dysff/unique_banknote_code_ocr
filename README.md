@@ -1,6 +1,8 @@
 # BANKNOTE UNIQUE CODE RECOGNITION
 
+<p align='center'>
 <img height=300 src="assets/roi.png"></img>
+</p>
 
 <p align='center'>
   <img src="https://img.shields.io/badge/python%203.10.0-black?style=flat-square&color=blue">
@@ -30,8 +32,10 @@ First it's required to detect roi, because OCR needs to see only the text we're 
 And it was decided to teach the model to detect whole banknote and slice this region the way to get ~1/4 of right up part of banknote(where id is located).
 
 > [!NOTE]Check pic below, where blue region is object's annotation and red is the piece with id, obtained by cropping the image.
-
+> 
+<p align='center'>
 <img height=300 src="assets/roi_example.png"></img>
+</p>
 
 #### ANNOTATON PROCESS
 
